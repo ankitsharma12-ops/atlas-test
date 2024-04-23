@@ -4,6 +4,7 @@ on:
   # can be ran manually
   workflow_dispatch:
 permissions:
+  contents: read
   security-events: write
 jobs:
 
