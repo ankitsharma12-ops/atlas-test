@@ -3,7 +3,8 @@ name: Caller Workflow
 on: 
   # can be ran manually
   workflow_dispatch:
-
+permissions:
+  security-events: write
 jobs:
 
   test:
